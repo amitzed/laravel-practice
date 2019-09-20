@@ -1,0 +1,183 @@
+html {
+  scroll-behavior: smooth;
+}
+
+ol, li {
+  list-style: none;
+}
+
+/* ============================================================
+CUSTOM STYLING
+============================================================  */
+body {
+	background: #2F404F;
+	color: #808080;
+	font: 200 15px/22.5px "Lato", "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4 {color: #2CB457;}
+
+h1 {
+	font-size: 35px;
+	line-height: 40px;
+}
+
+h2 {
+	font-size: 25px;
+	line-height: 40px;
+}
+
+h3 {font-size: 21px;}
+
+h4 {font-size: 18px;}
+
+h5 {
+	color: #FF6417;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+strong {font-weight: 400;}
+
+cite, em {
+	font-style: italic;
+}
+/* ============================================================
+END CUSTOM STYLING
+============================================================  */
+
+/* ============================================================
+VENUE - HOMEPAGE
+============================================================  */
+.venue-moscone { margin-bottom: 65px; }
+
+.venue-florence { margin-bottom: 20px; }
+
+.venue-map { height: 265px; }
+/* ============================================================
+END VENUE - HOMEPAGE
+============================================================  */
+
+/* ============================================================
+ROBOTS - ABOUT
+============================================================  */
+#robbie {
+  margin-top: 40px;
+}
+
+.robot {margin-bottom: 45px;}
+
+.robot-info {
+	border: 1px solid #D3D3D3;
+	border-radius: 17px 3px;
+	margin-top: 45px;
+  padding: 30px 0 20px 0;
+	text-align: center;
+}
+
+.robot-info img {
+	border-radius: 50%;
+	border-radius: 17px 3px;
+	height: 140px;
+	margin: -65px 0 17px 0;
+	vertical-align: top;
+}
+/* ============================================================
+END ROBOTS-ABOUT
+============================================================  */
+
+/* ============================================================
+CONTACT
+============================================================  */
+.reasons-to-attend {
+	list-style: square;
+	margin: 0 0 20px 30px;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+input,
+select,
+textarea {
+	/* font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica Arial, sans-serif; */
+	font: 200 15px/22.5px "Lato", "Open Sans", "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.register-group label {
+	color: #3973AC;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.register-group input,
+.register-group select,
+.register-group textarea {
+	color: #808080;
+	border: 1px solid #2CB457;
+	border-radius: 5px;
+	display: block;
+	margin: 5px 0 25px 0;
+	padding: 5px 10px;
+}
+
+.register-group input,
+.register-group select,
+.register-group textarea {
+	width: 100%;
+}
+
+.btn-default {
+	font-size: 15px;
+	transition: -webkit-letter-spacing 1s ease;
+	transition: -moz-letter-spacing 1s ease;
+	transition: -o-letter-spacing 1s ease;
+	transition: letter-spacing 1s ease;
+}
+.btn-default:hover {
+	background: rgba(255, 100, 23, .8);
+	color: yellow;
+	font-size: 16px;
+	letter-spacing: 10px;
+}
+/* ============================================================
+END CONTACT
+============================================================  */
+
+/* ============================================================
+MAIN FOOTER
+============================================================  */
+#footer {
+  margin: 30px;
+  padding: 20px;
+}
+
+.nav-footer {
+  text-align: right;
+}
+
+.nav-footer li {
+	display: inline-block;
+	margin: 0 25px;
+	vertical-align: top;
+}
+
+.nav-footer li {margin-right: 0;}
+
+.primary-footer {
+	color: #648880;
+	font-size: 15px;
+	padding-bottom: 45px;
+	padding-top: 45px;
+}
+
+.primary-footer small {
+	float: left;
+	font-weight: 500;
+}
+
+/* ============================================================
+END MAIN FOOTER
+============================================================  */
