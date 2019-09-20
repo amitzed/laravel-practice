@@ -3,16 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Laravel Practice</title>
+    <link rel="stylesheet" href="/css/app.css">
   </head>
   <body>
 
     @yield('content')
 
-    @section('sidebar')
-      <div class="sidebar">
-        <h3>A Sidebar Heading</h3>
-        This is a Sidebar
-      </div>
+    @include('inc.sidebar')
 
   </body>
 </html>
